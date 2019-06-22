@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FFA7DBC622BEBDEA002922E4 /* PhotoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA7DBC522BEBDEA002922E4 /* PhotoTableViewController.swift */; };
 		FFD97BBB22BDCE5E00DE48EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD97BBA22BDCE5E00DE48EA /* AppDelegate.swift */; };
 		FFD97BC022BDCE5E00DE48EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFD97BBE22BDCE5E00DE48EA /* Main.storyboard */; };
 		FFD97BC322BDCE5E00DE48EA /* My_Life_SOOC.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FFD97BC122BDCE5E00DE48EA /* My_Life_SOOC.xcdatamodeld */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FFA7DBC522BEBDEA002922E4 /* PhotoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoTableViewController.swift; sourceTree = "<group>"; };
 		FFD97BB722BDCE5E00DE48EA /* My Life SOOC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My Life SOOC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFD97BBA22BDCE5E00DE48EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FFD97BBF22BDCE5E00DE48EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -101,11 +103,12 @@
 			children = (
 				FFD97BBA22BDCE5E00DE48EA /* AppDelegate.swift */,
 				FFD97BBE22BDCE5E00DE48EA /* Main.storyboard */,
-				FFD97BEB22BDE07000DE48EA /* NewPhotoViewController.swift */,
 				FFD97BC422BDCE6900DE48EA /* Assets.xcassets */,
 				FFD97BC622BDCE6900DE48EA /* LaunchScreen.storyboard */,
 				FFD97BC922BDCE6900DE48EA /* Info.plist */,
 				FFD97BC122BDCE5E00DE48EA /* My_Life_SOOC.xcdatamodeld */,
+				FFD97BEB22BDE07000DE48EA /* NewPhotoViewController.swift */,
+				FFA7DBC522BEBDEA002922E4 /* PhotoTableViewController.swift */,
 			);
 			path = "My Life SOOC";
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 			files = (
 				FFD97BBB22BDCE5E00DE48EA /* AppDelegate.swift in Sources */,
 				FFD97BEC22BDE07000DE48EA /* NewPhotoViewController.swift in Sources */,
+				FFA7DBC622BEBDEA002922E4 /* PhotoTableViewController.swift in Sources */,
 				FFD97BC322BDCE5E00DE48EA /* My_Life_SOOC.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
