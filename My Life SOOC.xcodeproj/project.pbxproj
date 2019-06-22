@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FFD97BBB22BDCE5E00DE48EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD97BBA22BDCE5E00DE48EA /* AppDelegate.swift */; };
+		FFD97BC022BDCE5E00DE48EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFD97BBE22BDCE5E00DE48EA /* Main.storyboard */; };
+		FFD97BC322BDCE5E00DE48EA /* My_Life_SOOC.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FFD97BC122BDCE5E00DE48EA /* My_Life_SOOC.xcdatamodeld */; };
+		FFD97BC522BDCE6900DE48EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFD97BC422BDCE6900DE48EA /* Assets.xcassets */; };
+		FFD97BC822BDCE6900DE48EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFD97BC622BDCE6900DE48EA /* LaunchScreen.storyboard */; };
+		FFD97BD322BDCE6A00DE48EA /* My_Life_SOOCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD97BD222BDCE6A00DE48EA /* My_Life_SOOCTests.swift */; };
+		FFD97BDE22BDCE6A00DE48EA /* My_Life_SOOCUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD97BDD22BDCE6A00DE48EA /* My_Life_SOOCUITests.swift */; };
+		FFD97BEC22BDE07000DE48EA /* NewPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD97BEB22BDE07000DE48EA /* NewPhotoViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FFD97BCF22BDCE6A00DE48EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFD97BAF22BDCE5D00DE48EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFD97BB622BDCE5E00DE48EA;
+			remoteInfo = "My Life SOOC";
+		};
+		FFD97BDA22BDCE6A00DE48EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFD97BAF22BDCE5D00DE48EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFD97BB622BDCE5E00DE48EA;
+			remoteInfo = "My Life SOOC";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FFD97BB722BDCE5E00DE48EA /* My Life SOOC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My Life SOOC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFD97BBA22BDCE5E00DE48EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FFD97BBF22BDCE5E00DE48EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FFD97BC222BDCE5E00DE48EA /* My_Life_SOOC.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = My_Life_SOOC.xcdatamodel; sourceTree = "<group>"; };
+		FFD97BC422BDCE6900DE48EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FFD97BC722BDCE6900DE48EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FFD97BC922BDCE6900DE48EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFD97BCE22BDCE6A00DE48EA /* My Life SOOCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "My Life SOOCTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFD97BD222BDCE6A00DE48EA /* My_Life_SOOCTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = My_Life_SOOCTests.swift; sourceTree = "<group>"; };
+		FFD97BD422BDCE6A00DE48EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFD97BD922BDCE6A00DE48EA /* My Life SOOCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "My Life SOOCUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFD97BDD22BDCE6A00DE48EA /* My_Life_SOOCUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = My_Life_SOOCUITests.swift; sourceTree = "<group>"; };
+		FFD97BDF22BDCE6A00DE48EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFD97BEB22BDE07000DE48EA /* NewPhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPhotoViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FFD97BB422BDCE5E00DE48EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFD97BCB22BDCE6A00DE48EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFD97BD622BDCE6A00DE48EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FFD97BAE22BDCE5D00DE48EA = {
+			isa = PBXGroup;
+			children = (
+				FFD97BB922BDCE5E00DE48EA /* My Life SOOC */,
+				FFD97BD122BDCE6A00DE48EA /* My Life SOOCTests */,
+				FFD97BDC22BDCE6A00DE48EA /* My Life SOOCUITests */,
+				FFD97BB822BDCE5E00DE48EA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FFD97BB822BDCE5E00DE48EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FFD97BB722BDCE5E00DE48EA /* My Life SOOC.app */,
+				FFD97BCE22BDCE6A00DE48EA /* My Life SOOCTests.xctest */,
+				FFD97BD922BDCE6A00DE48EA /* My Life SOOCUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FFD97BB922BDCE5E00DE48EA /* My Life SOOC */ = {
+			isa = PBXGroup;
+			children = (
+				FFD97BBA22BDCE5E00DE48EA /* AppDelegate.swift */,
+				FFD97BBE22BDCE5E00DE48EA /* Main.storyboard */,
+				FFD97BEB22BDE07000DE48EA /* NewPhotoViewController.swift */,
+				FFD97BC422BDCE6900DE48EA /* Assets.xcassets */,
+				FFD97BC622BDCE6900DE48EA /* LaunchScreen.storyboard */,
+				FFD97BC922BDCE6900DE48EA /* Info.plist */,
+				FFD97BC122BDCE5E00DE48EA /* My_Life_SOOC.xcdatamodeld */,
+			);
+			path = "My Life SOOC";
+			sourceTree = "<group>";
+		};
+		FFD97BD122BDCE6A00DE48EA /* My Life SOOCTests */ = {
+			isa = PBXGroup;
+			children = (
+				FFD97BD222BDCE6A00DE48EA /* My_Life_SOOCTests.swift */,
+				FFD97BD422BDCE6A00DE48EA /* Info.plist */,
+			);
+			path = "My Life SOOCTests";
+			sourceTree = "<group>";
+		};
+		FFD97BDC22BDCE6A00DE48EA /* My Life SOOCUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FFD97BDD22BDCE6A00DE48EA /* My_Life_SOOCUITests.swift */,
+				FFD97BDF22BDCE6A00DE48EA /* Info.plist */,
+			);
+			path = "My Life SOOCUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FFD97BB622BDCE5E00DE48EA /* My Life SOOC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFD97BE222BDCE6A00DE48EA /* Build configuration list for PBXNativeTarget "My Life SOOC" */;
+			buildPhases = (
+				FFD97BB322BDCE5E00DE48EA /* Sources */,
+				FFD97BB422BDCE5E00DE48EA /* Frameworks */,
+				FFD97BB522BDCE5E00DE48EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "My Life SOOC";
+			productName = "My Life SOOC";
+			productReference = FFD97BB722BDCE5E00DE48EA /* My Life SOOC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FFD97BCD22BDCE6A00DE48EA /* My Life SOOCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFD97BE522BDCE6A00DE48EA /* Build configuration list for PBXNativeTarget "My Life SOOCTests" */;
+			buildPhases = (
+				FFD97BCA22BDCE6A00DE48EA /* Sources */,
+				FFD97BCB22BDCE6A00DE48EA /* Frameworks */,
+				FFD97BCC22BDCE6A00DE48EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FFD97BD022BDCE6A00DE48EA /* PBXTargetDependency */,
+			);
+			name = "My Life SOOCTests";
+			productName = "My Life SOOCTests";
+			productReference = FFD97BCE22BDCE6A00DE48EA /* My Life SOOCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FFD97BD822BDCE6A00DE48EA /* My Life SOOCUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFD97BE822BDCE6A00DE48EA /* Build configuration list for PBXNativeTarget "My Life SOOCUITests" */;
+			buildPhases = (
+				FFD97BD522BDCE6A00DE48EA /* Sources */,
+				FFD97BD622BDCE6A00DE48EA /* Frameworks */,
+				FFD97BD722BDCE6A00DE48EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FFD97BDB22BDCE6A00DE48EA /* PBXTargetDependency */,
+			);
+			name = "My Life SOOCUITests";
+			productName = "My Life SOOCUITests";
+			productReference = FFD97BD922BDCE6A00DE48EA /* My Life SOOCUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FFD97BAF22BDCE5D00DE48EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Ashanti Williams";
+				TargetAttributes = {
+					FFD97BB622BDCE5E00DE48EA = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					FFD97BCD22BDCE6A00DE48EA = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = FFD97BB622BDCE5E00DE48EA;
+					};
+					FFD97BD822BDCE6A00DE48EA = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = FFD97BB622BDCE5E00DE48EA;
+					};
+				};
+			};
+			buildConfigurationList = FFD97BB222BDCE5D00DE48EA /* Build configuration list for PBXProject "My Life SOOC" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FFD97BAE22BDCE5D00DE48EA;
+			productRefGroup = FFD97BB822BDCE5E00DE48EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FFD97BB622BDCE5E00DE48EA /* My Life SOOC */,
+				FFD97BCD22BDCE6A00DE48EA /* My Life SOOCTests */,
+				FFD97BD822BDCE6A00DE48EA /* My Life SOOCUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FFD97BB522BDCE5E00DE48EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFD97BC822BDCE6900DE48EA /* LaunchScreen.storyboard in Resources */,
+				FFD97BC522BDCE6900DE48EA /* Assets.xcassets in Resources */,
+				FFD97BC022BDCE5E00DE48EA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFD97BCC22BDCE6A00DE48EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFD97BD722BDCE6A00DE48EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FFD97BB322BDCE5E00DE48EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFD97BBB22BDCE5E00DE48EA /* AppDelegate.swift in Sources */,
+				FFD97BEC22BDE07000DE48EA /* NewPhotoViewController.swift in Sources */,
+				FFD97BC322BDCE5E00DE48EA /* My_Life_SOOC.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFD97BCA22BDCE6A00DE48EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFD97BD322BDCE6A00DE48EA /* My_Life_SOOCTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFD97BD522BDCE6A00DE48EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFD97BDE22BDCE6A00DE48EA /* My_Life_SOOCUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FFD97BD022BDCE6A00DE48EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FFD97BB622BDCE5E00DE48EA /* My Life SOOC */;
+			targetProxy = FFD97BCF22BDCE6A00DE48EA /* PBXContainerItemProxy */;
+		};
+		FFD97BDB22BDCE6A00DE48EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FFD97BB622BDCE5E00DE48EA /* My Life SOOC */;
+			targetProxy = FFD97BDA22BDCE6A00DE48EA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FFD97BBE22BDCE5E00DE48EA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFD97BBF22BDCE5E00DE48EA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FFD97BC622BDCE6900DE48EA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFD97BC722BDCE6900DE48EA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FFD97BE022BDCE6A00DE48EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FFD97BE122BDCE6A00DE48EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FFD97BE322BDCE6A00DE48EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 79Q6363ZJD;
+				INFOPLIST_FILE = "My Life SOOC/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ashantiwill94.My-Life-SOOC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FFD97BE422BDCE6A00DE48EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 79Q6363ZJD;
+				INFOPLIST_FILE = "My Life SOOC/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ashantiwill94.My-Life-SOOC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FFD97BE622BDCE6A00DE48EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 79Q6363ZJD;
+				INFOPLIST_FILE = "My Life SOOCTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ashantiwill94.My-Life-SOOCTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/My Life SOOC.app/My Life SOOC";
+			};
+			name = Debug;
+		};
+		FFD97BE722BDCE6A00DE48EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 79Q6363ZJD;
+				INFOPLIST_FILE = "My Life SOOCTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ashantiwill94.My-Life-SOOCTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/My Life SOOC.app/My Life SOOC";
+			};
+			name = Release;
+		};
+		FFD97BE922BDCE6A00DE48EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 79Q6363ZJD;
+				INFOPLIST_FILE = "My Life SOOCUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ashantiwill94.My-Life-SOOCUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "My Life SOOC";
+			};
+			name = Debug;
+		};
+		FFD97BEA22BDCE6A00DE48EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 79Q6363ZJD;
+				INFOPLIST_FILE = "My Life SOOCUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ashantiwill94.My-Life-SOOCUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "My Life SOOC";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FFD97BB222BDCE5D00DE48EA /* Build configuration list for PBXProject "My Life SOOC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFD97BE022BDCE6A00DE48EA /* Debug */,
+				FFD97BE122BDCE6A00DE48EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFD97BE222BDCE6A00DE48EA /* Build configuration list for PBXNativeTarget "My Life SOOC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFD97BE322BDCE6A00DE48EA /* Debug */,
+				FFD97BE422BDCE6A00DE48EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFD97BE522BDCE6A00DE48EA /* Build configuration list for PBXNativeTarget "My Life SOOCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFD97BE622BDCE6A00DE48EA /* Debug */,
+				FFD97BE722BDCE6A00DE48EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFD97BE822BDCE6A00DE48EA /* Build configuration list for PBXNativeTarget "My Life SOOCUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFD97BE922BDCE6A00DE48EA /* Debug */,
+				FFD97BEA22BDCE6A00DE48EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FFD97BC122BDCE5E00DE48EA /* My_Life_SOOC.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FFD97BC222BDCE5E00DE48EA /* My_Life_SOOC.xcdatamodel */,
+			);
+			currentVersion = FFD97BC222BDCE5E00DE48EA /* My_Life_SOOC.xcdatamodel */;
+			path = My_Life_SOOC.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FFD97BAF22BDCE5D00DE48EA /* Project object */;
+}
