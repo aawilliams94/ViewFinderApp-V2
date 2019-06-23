@@ -18,9 +18,35 @@ class NewPhotoViewController: UIViewController, UIImagePickerControllerDelegate,
         super.viewDidLoad()
         imagePicker.delegate = self
     }
+    //Image Picker and what causes the image to show up where the default image is
+    func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
+        if let pickedImage = info[UIImagePickerController.InfoKey.originalImage] as? UIImage {
+            imageView.contentMode = .scaleAspectFit
+            imageView.image = pickedImage
+        }
+        
+        dismiss(animated: true, completion: nil)
+    }
+    
+    //Outlet for Label
+    @IBOutlet var captionText: UITextField!
     
     //Save Button Action Function
     
+    @IBAction func saveButtonTapped(_ sender: UIButton) {
+        if let context = (UIApplication.shared.delegate as? AppDelegate)?.persistentContainer.viewContext {
+            let photoToSave = Photos(entity: Photos.entity(), insertInto: context)
+            photoToSave.caption = captionText.text
+            
+            if let userImage = imageView.image {
+                if let userImageData = userImage.pngData(){
+                    photoToSave.imageData = userImageData
+                }
+            }
+        (UIApplication.shared.delegate as? AppDelegate)?.saveContext()
+            navigationController?.popViewController(animated: true)
+    }
+}
    //Photo Library Action Function
     
     @IBAction func openPhotoLibraryButtonTapped(_ sender: UIButton) {
@@ -38,15 +64,7 @@ class NewPhotoViewController: UIViewController, UIImagePickerControllerDelegate,
         present(imagePicker, animated: true, completion: nil)
     }
     
-    
-    func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
-        if let pickedImage = info[UIImagePickerController.InfoKey.originalImage] as? UIImage {
-            imageView.contentMode = .scaleAspectFit
-            imageView.image = pickedImage
-        }
-        
-        dismiss(animated: true, completion: nil)
-    }
+
     
    
         // Do any additional setup after loading the view.
